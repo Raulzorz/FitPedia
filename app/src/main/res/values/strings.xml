@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FitPedia</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content"></string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_exercises">Exercises</string>
+    <string name="title_activity_nutrition">Nutrition</string>
+    <string name="title_activity_bulking">Bulking</string>
+    <string name="title_activity_maintenance">Maintenance</string>
+    <string name="title_activity_cutting">Cutting</string>
+    <string name="title_activity_you">You</string>
+    <string name="title_activity_tdee">TDEE</string>
+    <string name="title_activity_chest">Chest</string>
+    <string name="title_activity_bac">Bac</string>
+    <string name="title_activity_arms">Arms</string>
+    <string name="title_activity_legs">Legs</string>
+    <string name="title_activity_abs">Abs</string>
+    <string name="title_activity_rate">Rate</string>
+    <string name="bulk">What is the goal? Increased muscle size. What training best achieves that?
+        High volume weight training mostly in the 6-12 rep range. Now, what nutrition best supports this?</string>
+    <string name="bulk2">You need to eat a surplus of calories. Eat enough to gain 0.25 to 0.5% of your bodyweight per week.
+        That will equate to roughly 200-500 calories a day over maintenance for most T Nation readers.</string>
+    <string name="bulk3">A good rule of thumb when starting out is to multiply your bodyweight in pounds by 16 and eat that many calories per day. But that is just a rough guide. Many will need to eat 17 to 20 times their weight. If you begin at 16 and you are not gaining weight, bump it up to 17 and then re-assess progress. Keep adjusting until you are gaining weight at the desired rate.</string>
+    <string name="bulk4">The body is an infinitely complex system with countless feedback loops. Your needs will continue to fluctuate based on numerous factors. As you progress through your mass phase your calorie needs will adjust. Continue to monitor scale weight and adjust based on that. Not gaining quickly enough? Increase by 250–500 calories a day (lower end for smaller guys and higher end for bigger guys).</string>
+    <string name="bulk5">Aim to gain 0.25 to 0.5% of bodyweight per week. In real world math, the 170 pound guy should be trying to gain roughly 1 or 2 pounds every two weeks, but do not let the decimal points and percentages make you crazy. Lots of things can throw off scale weight, so just keep this as a general guideline.</string>
+    <string name="bulk6">When progress stalls, increase calories by 250 to 500 per day – lower end for lighter and/or fatter individuals and the higher end for bigger and/or leaner folks.</string>
+    <string name="bulk7">Adjust based on scale weight with the predominance of additional calories coming from carbs.</string>
+    <string name="bulk8">Your strength in the 6–12 rep range should be increasing consistently.</string>
+    <string name="cut">What is the goal? A reduction in body fat. What training best achieves this? As high volume as you can recover from. This will be less than mass phase volume.</string>
+    <string name="cu1">Being in a calorie deficit means your ability to recover from training is not as good as during a bulk, but you should strive to do as much as possible to provide the strongest signal to the body to retain muscle. High training volumes also help to create a calorie deficit. You might also include some form of cardio to increase the calorie deficit.</string>
+    <string name="cut1">Now, what nutrition best supports this goal?</string>
+    <string name="cut2"> - Calorie deficit</string>
+    <string name="cut3"> - Protein sufficient to maintain muscle mass (might be slightly higher than in mass and maintenance phases).</string>
+    <string name="cut4"> - Increased fat intake compared with mass phase. Risk of hormonal disruption is higher in a calorie deficit.</string>
+    <string name="cut5"> - Carbs should still be high enough to support training with high volumes. Set them as high as possible while still losing fat. Given a deficit is required, carbs will be lower than in mass phase.</string>
+    <string name="cut6">How to Track Progress During a Cutting Phase</string>
+    <string name="cut7">Aim to lose 0.5 to 1% of bodyweight per week. For a 215 pound guy, that means to aim to lose roughly 1 to 2 pounds per week.</string>
+    <string name="cut8">When progress stalls, lower calories by 250–500 per day (lower end of scale the smaller and/or leaner you are).</string>
+    <string name="cut9">Use the scale, progress pictures, and body composition measures like skinfold readings to guide your adjustments.</string>
+    <string name="bulc"> - Sufficient fat intake to optimize hormonal levels</string>
+    <string name="bulc1"> - High carbohydrates to support high volume training</string>
+    <string name="bulc2"> - Adequate protein to maximize muscle protein synthesis</string>
+    <string name="bulc3"> - A surplus of calories</string>
+    <string name="m">Maintenance</string>
+    <string name="m1">Train for strength – lower frequency, lower volume, lower reps, but heavier weights than what you used in your mass or cutting phase. For example, 3 sets of 5 reps (3x5). This works because it is much easier to maintain muscle than it is to build it, so the stimulus from training can be much lower.</string>
+    <string name="m2">As for nutrition, an isocaloric diet is best – maintain your bodyweight and eat at maintenance.</string>
+    <string name="m3">While eating at maintenance and training heavy there is little risk of muscle loss. Protein can stay the same as during your mass phase. Carbs can be reduced as training volume is lower. Fats can be increased somewhat to offset the reduction in carbs and ensure hormone levels are maintained.</string>
+    <string name="m4">This phase allows you to recover some insulin sensitivity after your high-carb mass phase. It also allows psychological relief. After following a high carb, relatively low-fat mass gaining phase you will likely be sick of foods like rice, oats, and potatoes paired with lean proteins. As a result, the opportunity to have some fatty foods with some carbs during maintenance helps to wash away any fatigue and set you up for the next phase of dieting.</string>
+    <string name="m5">Maintenance Phase Nutritional Guidelines</string>
+    <string name="m6"> - Protein: 0.9g/lb. (2g/kg)</string>
+    <string name="m7"> - Carbs: 2.5 to 3g/kg, about half that of peak mass phase</string>
+    <string name="m8"> - Fat: The rest (around 1.25 to 1.5g/kg)</string>
+    <string name="m9">How to Track Progress During a Maintenance Phase</string>
+    <string name="m11"> - Just maintain weight!</string>
+    <string name="m12"> - If weight fluctuates by more than plus or minus a pound (0.45kg), adjust calories up or down by 250 to 500 per day (lower end of range for smaller individuals and higher range for bigger guys).</string>
+</resources>

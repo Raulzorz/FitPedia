@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Exercises"
+    tools:showIn="@layout/app_bar_exercises">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/bac"
+                android:layout_width="196dp"
+                android:layout_height="match_parent"
+                android:background="#424242"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/chest"
+                android:layout_width="179dp"
+                android:layout_height="169dp"
+                android:layout_marginLeft="20dp"
+                android:background="#424242"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chest" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/arms"
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:background="#424242"
+                app:srcCompat="@drawable/arms" />
+
+            <ImageButton
+                android:id="@+id/legs"
+                android:layout_width="185dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="20dp"
+                android:background="#424242"
+                app:srcCompat="@drawable/legs" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/abs"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#424242"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/abs" />
+
+</LinearLayout>

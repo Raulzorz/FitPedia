@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511359350649",
+    "firebase_url": "https://fitpedia-6b703.firebaseio.com",
+    "project_id": "fitpedia-6b703",
+    "storage_bucket": "fitpedia-6b703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511359350649:android:0f4f24dfcf79bbc6",
+        "android_client_info": {
+          "package_name": "com.example.fitpedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511359350649-85h0fi3r6kcv1n1bnchuctbv6g8eijvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitpedia",
+            "certificate_hash": "d089c3fcc3ef269d7de5572c636442c04fb6b406"
+          }
+        },
+        {
+          "client_id": "511359350649-f7fogqcudcf4abneeb6lrb1l2gbmllak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPIM-7T9KMoGW4cHPbkot5Fst7USTzjLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511359350649-f7fogqcudcf4abneeb6lrb1l2gbmllak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

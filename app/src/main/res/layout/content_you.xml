@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".You"
+    android:background="#212121"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_you">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="BMR Calculator"
+        android:textAlignment="center"
+        android:textColor="#ffeb3b"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="#ffeb3b"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Height (cm)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffeb3b" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Age (years)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffeb3b" />
+
+    <Button
+        android:id="@+id/BTTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#424242"
+        android:text="Calculate (Men)"
+        android:textColor="#ffeb3b" />
+
+    <Button
+        android:id="@+id/WB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#424242"
+        android:text="Calculate (Women)"
+        android:textColor="#ffeb3b" />
+
+    <TextView
+        android:id="@+id/TXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#ffeb3b"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tdee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="#424242"
+        android:text="TDEE"
+        android:textColor="#ffeb3b"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom"
+        android:text="BMR means Basal Metablic Rate and it represents the amount of calories you burn while at rest"
+        android:textColor="#ffeb3b" />
+
+
+</LinearLayout>

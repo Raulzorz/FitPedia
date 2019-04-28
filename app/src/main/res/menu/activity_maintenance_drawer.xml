@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exercises16"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exercises" />
+        <item
+            android:id="@+id/workouts16"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Workouts" />
+        <item
+            android:id="@+id/nutrition16"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Nutrition" />
+        <item
+            android:id="@+id/calculator16"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calculate Yourself" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/contact16"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact" />
+            <item
+                android:id="@+id/gym16"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Find Us" />
+            <item
+                android:id="@+id/rate16"
+                android:icon="@android:drawable/btn_star_big_off"
+                android:title="Rate" />
+        </menu>
+    </item>
+
+</menu>
